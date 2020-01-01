@@ -1,0 +1,168 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+
+}
+.bg-light
+{
+background-color: rgba(255, 255, 255, 0.3) !important;
+}
+header
+{
+    height: 600px;
+    background-image: url(../images/bg_bunner_2.jpg);
+    background-size: cover;
+background-position: center;
+}
+.overly
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+text-align: center;
+color: white;
+}
+.line-1
+{
+    width: 50px;
+    height: 2px;
+margin: auto;
+background-color: white;
+}
+header .overly h2
+{
+    font-size: 60px;
+font-weight: 800;
+}
+header .overly p
+{
+font-size: 18px;
+font-weight: 400;
+width: 80%;
+margin: auto;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+.navbar .navbar-nav .active .nav-link
+{
+    color: #41a451;
+}
+.bar
+{
+    background-color: #fff;
+position: relative;
+top:-50px;
+    border-radius: 10px;
+}
+.sec-2 .col-md-5
+{
+    background-image: url(../images/home_3_1_483x327.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.row
+{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 800px){
+header h2{
+font-size:16px;
+}
+}
+.sec-3 span
+{
+    color: #41a451;
+}
+.sec-4
+{
+    background-color: #f1f1f1;
+}
+.sec-4 h3
+{
+    background-color:#333;
+color: #fff;
+}
+.menu
+{
+    background-color: #fff;
+}
+.menu .cont
+{
+width: 60%;
+margin: auto;
+}
+.menu .cont span
+{
+    color: #41a451;
+}
+.menu .cont  p
+{
+    color: #ccc;
+}
+.container-fluid
+{
+    padding: 0;
+}
+.sec-5 .col-md-4 ,.sec-5 .col-md-6
+{
+    padding: 0;
+}
+.sec-6 span
+{
+    background-color: #333;
+    color: #fff;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+border-radius: 10px;
+}
+.sec-6 p
+{
+    color: #ccc;
+}
+.sec-6 button
+{
+    background-color: transparent;
+    color: #333;
+border: none;
+font-size: 20px;
+
+}
+.sec-6 h5
+{
+    color: #41a451;
+font-size: 24px;
+font-weight: 700;
+}
+footer
+{
+    background-color: #222;
+}
+footer ul
+{
+    list-style-type: none;
+}
+footer ul li
+{
+    display: inline;
+    color: #fff;
+}
+footer ul li i
+{
+    font-size:20px;
+    padding: 10px;
+border:1px solid #f1f1f1;
+border-radius: 50%;
+}
+footer .by
+{
+    color: #fff;
+}
+footer .by span
+{
+    color: #41a451;
+}
